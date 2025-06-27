@@ -6,3 +6,6 @@ if((A+B > C) and (A+C > B) and (B+C > A)):
     perimetro = A + B + C
     print("Perimetro = %0.1f" % (perimetro))
 
+else:
+    area = ((A+B) * C)/2
+    print("Area = %0.1f" % (area))
